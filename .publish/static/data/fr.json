@@ -1,0 +1,28 @@
+{
+  "title": "Accès illimité<br>à toutes les fonctionnalités",
+  "features_item_1": "Documents illimités",
+  "features_item_2": "Mode décompte",
+  "features_item_3": "Reconnaissance de texte (OCR)",
+  "card": [
+    {
+      "name": "Tous les mois",
+      "cost": "9.99",
+      "term": "par mois",
+      "peculiarity": "3 JOURS GRATUITS",
+      "monthlyCost": "9.99/mois"
+    },
+    {
+      "name": "Tous les ans",
+      "sale": "-83%",
+      "cost": "19.99",
+      "term": "par an",
+      "peculiarity": "LE PLUS POPULAIRE",
+      "monthlyCost": "$1.66 month"
+    }
+  ],
+  "btn": "Continuer",
+  "note": "Renouvelable automatiquement. Annulez à tout moment.",
+  "footer_link_left": "Conditions d'utilisation",
+  "privacy_policy": "Politique de confidentialité",
+  "header_link_right": "Restaurer"
+}

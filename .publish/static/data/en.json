@@ -1,0 +1,28 @@
+{
+  "title": "Unlimited Access<br>to All Features",
+  "features_item_1": "Unlimited documents",
+  "features_item_2": "Count mode",
+  "features_item_3": "Text recognition (OCR)",
+  "card": [
+    {
+      "name": "Monthly",
+      "cost": "$9.99",
+      "term": "per month",
+      "peculiarity": "3 DAYS FREE",
+      "monthlyCost": "$9.99 month"
+    },
+    {
+      "name": "Annually",
+      "sale": "-83%",
+      "cost": "$19.99",
+      "term": "per year",
+      "peculiarity": "MOST POPULAR",
+      "monthlyCost": "$1.66 month"
+    }
+  ],
+  "btn": "Continue",
+  "note": "Auto-renewable. Cancel anytime.",
+  "footer_link_left": "Terms of Use",
+  "privacy_policy": "Privacy Policy",
+  "header_link_right": "Restore"
+}
