@@ -1,0 +1,41 @@
+@@include('block/head.html')
+
+<main class="banner">
+  <picture class="banner__picture">
+    <source
+      srcset="
+        static/img/background-full/4.webp    1x,
+        static/img/background-full/4@2x.webp 2x,
+        static/img/background-full/4@3x.webp 3x
+      "
+      type="image/webp"
+    />
+
+    <source
+      srcset="
+        static/img/background-full/4.jpg    1x,
+        static/img/background-full/4@2x.jpg 2x,
+        static/img/background-full/4@3x.jpg 3x
+      "
+    />
+    <source srcset="static/img/background-full/4.webp" type="image/webp" />
+
+    <img
+      src="static/img/background-full/4.jpg"
+      alt="Background"
+      class="banner__img"
+    />
+  </picture>
+
+  <div class="banner__top">
+    <a class="banner__close" href="#">
+      <svg aria-hidden="true">
+        <use xlink:href="static/img/symbol/sprite.svg#close"></use>
+      </svg>
+    </a>
+
+    <a class="banner__top-link" href="#">Restore</a>
+  </div>
+</main>
+
+@@include('block/scripts.html')

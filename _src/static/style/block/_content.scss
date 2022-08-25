@@ -1,0 +1,26 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    @include hight-str-languages {
+      font-size: rem(26);
+    }
+
+    margin-bottom: rem(29);
+
+    font-weight: 700;
+    font-size: rem(36);
+    line-height: 1.1;
+    text-align: center;
+    text-shadow: 0 rem(2) rem(4) rgba(0, 0, 0, .5);
+  }
+
+  &__features {
+    margin-bottom: rem(44);
+  }
+
+  &__subscription {
+  }
+}

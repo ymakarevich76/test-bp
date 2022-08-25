@@ -1,0 +1,55 @@
+.subscription {
+  &__cards {
+    margin-bottom: rem(24);
+  }
+
+  &__card {
+    &:not(:last-child) {
+      margin-right: rem(20);
+    }
+    * {
+      pointer-events: none;
+    }
+  }
+
+  &__btn {
+    display: block;
+    min-width: rem(280);
+    margin-bottom: rem(16);
+    padding: rem(20);
+
+    font-weight: 700;
+    font-size: rem(17);
+    line-height: 1;
+    font-family: $ff-main;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+
+    background: linear-gradient(270deg, #1987ff 0%, #19ccff 100%);
+    border-radius: rem(30);
+
+    &:active {
+      background: linear-gradient(90deg, #1987ff 0%, #19ccff 100%);
+    }
+
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+
+  &__note {
+    margin-bottom: 0;
+
+    font-weight: 400;
+    font-size: rem(11);
+    line-height: 1.2;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+
+    opacity: .5;
+  }
+}
