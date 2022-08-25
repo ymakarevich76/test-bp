@@ -1,14 +1,18 @@
 {
   "private": true,
+  "homepage": "https://ymakarevich76.github.io/test-bp/",
   "scripts": {
     "start": "gulp",
-    "build": "gulp build"
+    "build": "gulp build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@babel/core": "^7.13.13",
     "@babel/preset-env": "^7.13.12",
     "browser-sync": "^2.26.14",
     "del": "^6.0.0",
+    "gh-pages": "^4.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-babel": "^8.0.0",
