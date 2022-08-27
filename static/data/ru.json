@@ -1,28 +1,19 @@
 {
-  "title": "Неограниченный доступ<br>ко всем функциям",
-  "features_item_1": "Любое количество документов",
-  "features_item_2": "Режим «Подсчет»",
-  "features_item_3": "Распознавание текста (OCR)",
-  "card": [
-    {
-      "name": "1 месяц",
-      "cost": "$9.99",
-      "term": "в месяц",
-      "peculiarity": "3 ДНЯ БЕСПЛАТНО",
-      "monthlyCost": "$9.99/месяц"
-    },
-    {
-      "name": "1 год",
-      "sale": "-83%",
-      "cost": "$19.99",
-      "term": "в год",
-      "peculiarity": "ПОПУЛЯРНОЕ",
-      "monthlyCost": "$1.66/месяц"
-    }
-  ],
-  "btn": "Продолжить",
-  "note": "Автопродление. Отмена в любое время.",
-  "footer_link_left": "Условия использования",
-  "privacy_policy": "Конфиденциальность",
-  "header_link_right": "Восстановить"
+  "Unlimited Access<br>to All Features": "Неограниченный доступ<br>ко всем функциям",
+  "Unlimited documents": "Любое количество документов",
+  "Count mode": "Режим «Подсчет»",
+  "Text recognition (OCR)": "Распознавание текста (OCR)",
+  "Monthly": "1 месяц",
+  "<strong>{{price}}</strong><br>per month": "<strong>{{price}}</strong><br>в месяц",
+  "3 DAYS FREE": "3 ДНЯ БЕСПЛАТНО",
+  "{{price}}/month": "{{price}}/месяц",
+  "Annually": "1 ГОД",
+  "-83%": "-83%",
+  "<strong>{{price}}</strong><br>per year": "<strong>{{price}}</strong><br>в год",
+  "MOST POPULAR": "ПОПУЛЯРНОЕ",
+  "Continue": "Продолжить",
+  "Auto-renewable. Cancel anytime.": "Автопродление. Отмена в любое время.",
+  "Terms of Use": "Условия использования",
+  "Restore": "Восстановить",
+  "Privacy Policy": "Конфиденциальность"
 }

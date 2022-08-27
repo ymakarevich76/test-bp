@@ -1,64 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <meta name="description" content="description">
-  <link rel="icon" href="./static/img/favicon/favicon.png">
-
-  <!-- Custom Browsers Color Start -->
-  <meta name="theme-color" content="#fff">
-
-  <link rel="preload" href="./static/css/libs.min.css" as="style">
-  <link rel="preload" href="./static/css/main.min.css" as="style">
-
-  <link rel="stylesheet" href="./static/css/libs.min.css">
-  <link rel="stylesheet" href="./static/css/main.min.css">
-</head>
-<body>
-
-
-<main class="banner">
-  <picture class="banner__picture">
-    <source
-      srcset="
-        static/img/background-full/4.webp    1x,
-        static/img/background-full/4@2x.webp 2x,
-        static/img/background-full/4@3x.webp 3x
-      "
-      type="image/webp"
-    />
-
-    <source
-      srcset="
-        static/img/background-full/4.jpg    1x,
-        static/img/background-full/4@2x.jpg 2x,
-        static/img/background-full/4@3x.jpg 3x
-      "
-    />
-    <source srcset="static/img/background-full/4.webp" type="image/webp" />
-
-    <img
-      src="static/img/background-full/4.jpg"
-      alt="Background"
-      class="banner__img"
-    />
-  </picture>
-
-  <div class="banner__header header">
-  <a class="header__close" href="#">
-    <svg aria-hidden="true">
-      <use xlink:href="static/img/symbol/sprite.svg#close"></use>
-    </svg>
-  </a>
-
-  <a class="header__link" href="#" data-content="Restore"></a>
-</div>
-
-  <section class="banner__content content">
+<section class="@@bannerContent content">
   <h1 class="content__title" data-content="Unlimited Access&lt;br&gt;to All Features"></h1>
   <ul class="content__features features list-reset">
     <li class="features__item">
@@ -104,16 +44,3 @@
     <p class="subscription__note" data-content="Auto-renewable. Cancel anytime."></p>
   </div>
 </section>
-
-  <footer class="banner__footer footer">
-  <a class="footer__link" href="#" data-content="Terms of Use"></a>
-  <a class="footer__link" href="#" data-content="Privacy Policy"></a>
-</footer>
-
-</main>
-
-  <script src="./static/js/libs.min.js"></script>
-  <script src="./static/js/main.min.js"></script>
-</body>
-</html>
-

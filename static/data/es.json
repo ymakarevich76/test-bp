@@ -1,28 +1,19 @@
 {
-  "title": "Acceso ilimitado<br>a todas las funciones",
-  "features_item_1": "Documentos ilimitados",
-  "features_item_2": "Modo de recuento",
-  "features_item_3": "Reconocimiento de texto (OCR)",
-  "card": [
-    {
-      "name": "Mensual",
-      "cost": "9.99",
-      "term": "por mes",
-      "peculiarity": "3 DÍAS GRATIS",
-      "monthlyCost": "9.99/mes"
-    },
-    {
-      "name": "Anual",
-      "sale": "-83%",
-      "cost": "19.99",
-      "term": "por año",
-      "peculiarity": "LO MÁS PEDIDO",
-      "monthlyCost": "$1.66 month"
-    }
-  ],
-  "btn": "Continuar",
-  "note": "Renovable automáticamente. Cancela cuando quieras.",
-  "footer_link_left": "Términos de uso",
-  "privacy_policy": "Política de privacidad",
-  "header_link_right": "Restablecer"
+  "Unlimited Access<br>to All Features": "Acceso ilimitado<br>a todas las funciones",
+  "Unlimited documents": "Documentos ilimitados",
+  "Count mode": "Modo de recuento",
+  "Text recognition (OCR)": "Reconocimiento de texto (OCR)",
+  "Monthly": "Mensual",
+  "<strong>{{price}}</strong><br>per month": "<strong>{{price}}</strong><br>por mes",
+  "3 DAYS FREE": "3 DÍAS GRATIS",
+  "{{price}}/month": "{{price}}/mes",
+  "Annually": "Anual",
+  "-83%": "-83%",
+  "<strong>{{price}}</strong><br>per year": "<strong>{{price}}</strong><br>por año",
+  "MOST POPULAR": "LO MÁS PEDIDO",
+  "Continue": "Continuar",
+  "Auto-renewable. Cancel anytime.": "Renovable automáticamente. Cancela cuando quieras.",
+  "Terms of Use": "Términos de uso",
+  "Restore": "Restablecer",
+  "Privacy Policy": "Política de privacidad"  
 }
