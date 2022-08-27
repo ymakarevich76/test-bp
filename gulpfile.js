@@ -210,14 +210,6 @@ const watcher = () => {
   watch(path.src.scriptLib, jsLib);
 }
 
-// const gulp = require('gulp');
-// const ghPages = require('gulp-gh-pages');
-
-// gulp.task('deploy', function() {
-//   return src('./dist/**/*')
-//     .pipe(ghPages());
-// });
-
 const deploy = () => {
   return src('./dist/**/*')
     .pipe(ghPages());
