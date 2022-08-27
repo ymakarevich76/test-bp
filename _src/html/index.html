@@ -27,15 +27,9 @@
     />
   </picture>
 
-  <div class="banner__top">
-    <a class="banner__close" href="#">
-      <svg aria-hidden="true">
-        <use xlink:href="static/img/symbol/sprite.svg#close"></use>
-      </svg>
-    </a>
-
-    <a class="banner__top-link" href="#">Restore</a>
-  </div>
+  @@include('Header.html', { "bannerHeader": "banner__header" })
+  @@include('Content.html', { "bannerContent": "banner__content" })
+  @@include('Footer.html', { "bannerFooter": "banner__footer" })
 </main>
 
 @@include('block/scripts.html')

@@ -12,11 +12,11 @@
     font-style: normal;
 
     &:active {
-      color: #fff;
+      color: $c-main;
     }
 
     &:hover {
-      color: #fff;
+      color: $c-main;
       text-decoration: underline;
     }
   }

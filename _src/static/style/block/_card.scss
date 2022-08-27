@@ -41,7 +41,7 @@
     line-height: 1.2;
     font-family: $ff-main;
     text-align: center;
-    color: #fff;
+    color: $c-main;
 
     background-color: #db0000;
     border-radius: 50%;
@@ -55,7 +55,8 @@
     line-height: 1.1;
     font-family: $ff-main;
     text-align: center;
-    color: #fff;
+    color: $c-main;
+    text-transform: none;
   }
 
   &__cost {
@@ -66,7 +67,7 @@
     line-height: 1;
     font-family: $ff-main;
     text-align: center;
-    color: #fff;
+    color: $c-main;
     font-style: normal;
   }
 
@@ -78,7 +79,7 @@
     line-height: 1;
     font-family: $ff-main;
     text-align: center;
-    color: #fff;
+    color: $c-main;
     font-style: normal;
   }
 
@@ -97,7 +98,7 @@
     font-size: rem(14);
     line-height: 1.2;
     font-family: $ff-main;
-    color: #fff;
+    color: $c-main;
     text-transform: uppercase;
 
     background-color: #495795;
@@ -110,6 +111,6 @@
     line-height: 1.1;
     font-family: $ff-main;
     text-align: center;
-    color: #fff;
+    color: $c-main;
   }
 }

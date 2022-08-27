@@ -1,28 +1,19 @@
 {
-  "title": "Onbeperkte toegang<br>tot alle functies",
-  "features_item_1": "Onbeperkt aantal documenten",
-  "features_item_2": "Aantal modus",
-  "features_item_3": "Gratis tekstherkenning (OCR)",
-  "card": [
-    {
-      "name": "Maandelijks",
-      "cost": "9.99",
-      "term": "per maand",
-      "peculiarity": "3 DAGEN GRATIS",
-      "monthlyCost": "9.99/maand"
-    },
-    {
-      "name": "Jaarlijks",
-      "sale": "-83%",
-      "cost": "19.99",
-      "term": "per jaar",
-      "peculiarity": "MEEST POPULAIR",
-      "monthlyCost": "$1.66 month"
-    }
-  ],
-  "btn": "Doorgaan",
-  "note": "Automatisch verlengbaar. Altijd annuleren.",
-  "footer_link_left": "Gebruiksvoorwaarden",
-  "privacy_policy": "Privacybeleid",
-  "header_link_right": "Herstellen"
+  "Unlimited Access<br>to All Features": "Onbeperkte toegang<br>tot alle functies",
+  "Unlimited documents": "Onbeperkt aantal documenten",
+  "Count mode": "Aantal modus",
+  "Text recognition (OCR)": "Gratis tekstherkenning (OCR)",
+  "Monthly": "Maandelijks",
+  "<strong>{{price}}</strong><br>per month": "<strong>{{price}}</strong><br>per maand",
+  "3 DAYS FREE": "3 DAGEN GRATIS",
+  "{{price}}/month": "{{price}}/maand",
+  "Annually": "Jaarlijks",
+  "-83%": "-83%",
+  "<strong>{{price}}</strong><br>per year": "<strong>{{price}}</strong><br>per jaar",
+  "MOST POPULAR": "MEEST POPULAIR",
+  "Continue": "Doorgaan",
+  "Auto-renewable. Cancel anytime.": "Automatisch verlengbaar. Altijd annuleren.",
+  "Terms of Use": "Gebruiksvoorwaarden",
+  "Restore": "Herstellen",
+  "Privacy Policy": "Privacybeleid"
 }

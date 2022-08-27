@@ -23,7 +23,7 @@
     line-height: 1;
     font-family: $ff-main;
     text-align: center;
-    color: #fff;
+    color: $c-main;
     text-decoration: none;
 
     background: linear-gradient(270deg, #1987ff 0%, #19ccff 100%);
@@ -34,7 +34,7 @@
     }
 
     &:hover {
-      color: #fff;
+      color: $c-main;
       text-decoration: none;
     }
   }
@@ -47,7 +47,7 @@
     line-height: 1.2;
     font-family: Roboto, sans-serif;
     text-align: center;
-    color: #fff;
+    color: $c-main;
     font-style: normal;
 
     opacity: .5;

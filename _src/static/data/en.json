@@ -1,28 +1,19 @@
 {
-  "title": "Unlimited Access<br>to All Features",
-  "features_item_1": "Unlimited documents",
-  "features_item_2": "Count mode",
-  "features_item_3": "Text recognition (OCR)",
-  "card": [
-    {
-      "name": "Monthly",
-      "cost": "$9.99",
-      "term": "per month",
-      "peculiarity": "3 DAYS FREE",
-      "monthlyCost": "$9.99 month"
-    },
-    {
-      "name": "Annually",
-      "sale": "-83%",
-      "cost": "$19.99",
-      "term": "per year",
-      "peculiarity": "MOST POPULAR",
-      "monthlyCost": "$1.66 month"
-    }
-  ],
-  "btn": "Continue",
-  "note": "Auto-renewable. Cancel anytime.",
-  "footer_link_left": "Terms of Use",
-  "privacy_policy": "Privacy Policy",
-  "header_link_right": "Restore"
+"Unlimited Access<br>to All Features": "Unlimited Access<br>to All Features",
+"Unlimited documents": "Unlimited documents",
+"Count mode": "Count mode",
+"Text recognition (OCR)": "Text recognition (OCR)",
+"Monthly": "Monthly",
+"<strong>{{price}}</strong><br>per month": "<strong>{{price}}</strong><br>per month",
+"3 DAYS FREE": "3 DAYS FREE",
+"{{price}}/month": "{{price}}/month",
+"Annually": "Annually",
+"-83%": "-83%",
+"<strong>{{price}}</strong><br>per year": "<strong>{{price}}</strong><br>per year",
+"MOST POPULAR": "MOST POPULAR",
+"Continue": "Continue",
+"Auto-renewable. Cancel anytime.": "Auto-renewable. Cancel anytime.",
+"Terms of Use": "Terms of Use",
+"Restore": "Restore",
+"Privacy Policy": "Privacy Policy"
 }

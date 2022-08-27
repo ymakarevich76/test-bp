@@ -1,0 +1,46 @@
+<section class="@@bannerContent content">
+  <h1 class="content__title" data-content="Unlimited Access&lt;br&gt;to All Features"></h1>
+  <ul class="content__features features list-reset">
+    <li class="features__item">
+      <img
+        class="features__icon"
+        src="static/img/icon/unlimitedDocs.svg"
+        alt="Icon"
+      />
+      <span class="features__caption" data-content="Unlimited documents"></span>
+    </li>
+    <li class="features__item">
+      <img class="features__icon" src="static/img/icon/export.svg" alt="Icon" />
+      <span class="features__caption" data-content="Count mode"></span>
+    </li>
+    <li class="features__item">
+      <img class="features__icon" src="static/img/icon/noAds.svg" alt="Icon" />
+      <span class="features__caption" data-content="Text recognition (OCR)"></span>
+    </li>
+  </ul>
+
+  <div class="content__subscription subscription">
+    <div class="subscription__cards">
+      <button
+        class="subscription__card card card--active"
+        data-url="https://apple.com/"
+      >
+        <p class="card__name" data-content="Monthly"></p>
+        <p class="card__cost" data-content="&lt;strong&gt;{{price}}&lt;/strong&gt;&lt;br&gt;per month"></p>
+        <p class="card__term"></p>
+        <p class="card__peculiarity" data-content="3 DAYS FREE"></p>
+        <p class="card__monthly-cost" data-content="{{price}}/month" data-cost="pricePerMonth"></p>
+      </button>
+      <button class="subscription__card card card--sale" data-url="https://google.com/">
+        <p class="card__name" data-content="Annually"></p>
+        <span class="card__sale" data-content="-83%"></span>
+        <p class="card__cost" data-content="&lt;strong&gt;{{price}}&lt;/strong&gt;&lt;br&gt;per year"></p>
+        <p class="card__term"></p>
+        <p class="card__peculiarity" data-content="MOST POPULAR"></p>
+        <p class="card__monthly-cost card--cost" data-cost="pricePerMonthPerYear" data-content="{{price}}/month"></p>
+      </button>
+    </div>
+    <a class="subscription__btn" href="https://apple.com/" data-content="Continue"></a>
+    <p class="subscription__note" data-content="Auto-renewable. Cancel anytime."></p>
+  </div>
+</section>
