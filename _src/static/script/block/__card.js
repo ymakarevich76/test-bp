@@ -4,10 +4,10 @@ window.addEventListener("DOMContentLoaded", () => {
   const htmlContents = document.querySelectorAll("[data-content]");
 
   const generateBanner = (object) => {
-    const pricePerMonth = "9.99$";
-    const pricePerYear = "39.99$";
-    const pricePerMonthPerYear =
-      Math.round((pricePerYear.slice(0, -1) / 12) * 100) / 100 + "$";
+    const pricePerMonth = "$9.99";
+    const pricePerYear = "$19.99";
+    const pricePerMonthPerYear = "$" +
+      Math.floor((pricePerYear.slice(1) / 12) * 100) / 100;
 
     htmlContents.forEach((content) => {
       content.innerHTML = object[content.dataset.content];

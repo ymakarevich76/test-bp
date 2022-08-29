@@ -62,13 +62,18 @@
   &__cost {
     margin-bottom: 0;
 
-    font-weight: 700;
-    font-size: rem(22);
+    font-weight: 400;
+    font-size: rem(14);
     line-height: 1;
     font-family: $ff-main;
     text-align: center;
     color: $c-main;
     font-style: normal;
+
+    & strong {
+      font-weight: 700;
+      font-size: rem(22);
+    }
   }
 
   &__term {
